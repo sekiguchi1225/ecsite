@@ -4,7 +4,6 @@ import jp.co.internous.ecsite.model.entity.User;
 
 public class LoginDto {
 	
-
 	private long id;
 	private String userName;
 	private String password;

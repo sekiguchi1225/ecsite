@@ -27,7 +27,6 @@ public class Goods {
 	@Column(name="updated_at")
 	private Timestamp updatedAt;
 	
-	
 	public long getId(){
 		return id;
 	}

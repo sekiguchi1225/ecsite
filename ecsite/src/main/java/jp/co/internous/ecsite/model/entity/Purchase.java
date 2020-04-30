@@ -13,9 +13,6 @@ import javax.persistence.Table;
 @Table(name="purchase")
 public class Purchase {
 
-	
-	
-
 	@Id
 	@Column(name="id")
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -39,7 +36,6 @@ public class Purchase {
 	@Column(name="created_at")
 	private Timestamp createdAt;
 
-	
 	public long getId(){
 		return id;
 	}
@@ -82,6 +78,5 @@ public class Purchase {
 	public void setCreatedAt(Timestamp createdAt) {
 		this.createdAt=createdAt;
 	}
-
 
 }

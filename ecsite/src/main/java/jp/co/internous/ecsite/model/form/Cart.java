@@ -34,6 +34,5 @@ public class Cart implements Serializable {
 	public void setCount(long count) {
 		this.count=count;
 	}
+	
 }
-
-
